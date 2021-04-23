@@ -9,6 +9,7 @@
 
 
 
+
 /* BODY STILE BASE*/
 
 body
@@ -363,7 +364,7 @@ p
 
 .panel
 {
-    background: #000;
+    background: #414141;
     padding: 100px 30px;
 }
 
@@ -396,6 +397,7 @@ p
     background: #fff;
     padding: 100px 0;
 }
+
 
 
 
