@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
 
@@ -38,7 +39,7 @@
 
 
     <div class="hero">
-        <div class="hero__content">
+        <div class="hero__content reveal">
             <p class="introtext">Intro text</p>
             <h1 class="bigtext">Titolo</h1>
             <a href="" class="button">Discover</a>
@@ -150,6 +151,7 @@
 
     
 
+
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -162,6 +164,8 @@
         $(".menu").toggleClass("menu--open");
         });
     });
+
+    ScrollReveal().reveal('.reveal' , { distance: '50px', duration: 1500 , easing: 'cubic-bezier(0.215, 0.610, 0.355, 1)' });
     </script>
 
 </body>
